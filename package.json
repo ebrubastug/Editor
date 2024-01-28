@@ -3,17 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.162",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "html-to-image": "^1.11.11",
     "react": "^18.2.0",
+    "react-color": "^2.19.3",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-drag-drop-files": "^2.3.10",
+    "react-draggable": "^4.4.6",
+    "react-scripts": "^5.0.1",
+    "react-web-editor": "^2.2.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +43,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.6",
+    "sass": "^1.70.0"
   }
 }
